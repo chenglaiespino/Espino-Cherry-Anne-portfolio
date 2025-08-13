@@ -64,4 +64,4 @@ npm run preview
 
 👤 **Cherry Anne Espino**
 
-- GitHub: [@shaqdeff](https://github.com/chenglaiespino)
+- GitHub: [@chenglaiespino](https://github.com/chenglaiespino)
