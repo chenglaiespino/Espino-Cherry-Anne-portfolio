@@ -1,8 +1,25 @@
 import {
+  anhs,
+  sti,
+  mcc,
   frontend,
   backend,
+  project,
   ux,
+  php,
+  excel,
+  c_sharp,
+  cpms,
+  cipher,
+  python,
+  machine_learning,
+  adobe_photoshop,
+  analyst,
+  mabels,
   prototyping,
+  quality_assurance,
+  sql_server,
+  java,
   javascript,
   typescript,
   html,
@@ -50,16 +67,16 @@ const services = [
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
-    icon: backend,
+    title: 'Project Manager',
+    icon: project,
   },
   {
-    title: 'UI/UX Design',
-    icon: ux,
+    title: 'Data Analyst',
+    icon: analyst,
   },
   {
-    title: 'Software Prototyping',
-    icon: prototyping,
+    title: 'Quality Assurance',
+    icon: quality_assurance,
   },
 ];
 
@@ -77,36 +94,36 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: 'TypeScript',
-    icon: typescript,
+    name: 'Java',
+    icon: java,
   },
   {
     name: 'React JS',
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
+    name: 'SQL',
+    icon: sql_server,
   },
   {
     name: 'Tailwind CSS',
     icon: tailwind,
   },
   {
-    name: 'Node JS',
-    icon: nodejs,
+    name: 'Machine Learning',
+    icon: machine_learning,
   },
   {
-    name: 'Rails',
-    icon: rubyrails,
+    name: 'Photoshop',
+    icon: adobe_photoshop,
   },
   {
-    name: 'graphql',
-    icon: graphql,
+    name: 'C Sharp',
+    icon: c_sharp,
   },
   {
-    name: 'postgresql',
-    icon: postgresql,
+    name: 'PHP',
+    icon: php,
   },
   {
     name: 'git',
@@ -117,47 +134,40 @@ const technologies = [
     icon: figma,
   },
   {
-    name: 'docker',
-    icon: docker,
+    name: 'Python',
+    icon: python,
   },
 ];
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
+    title: 'High School',
+    company_name: 'Antipolo National High School',
+    icon: anhs,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: '2016 - 2020',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
+    title: 'Senior High School',
+    company_name: 'Maranatha Christian College',
+    icon: mcc,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: '2020 - 2022',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
+    title: 'College',
+    company_name: 'STI West Negros University',
+    icon: sti,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
-  },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: '2022 - Present',
   },
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Car Park System',
+    description: 'A Car Park Management System is a software solution that automates parking operations, including vehicle entry/exit tracking, space allocation, payment processing, and reporting, to improve efficiency and reduce congestion.',
     tags: [
       {
         name: 'react',
@@ -172,15 +182,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
+    image: cpms,
     repo: 'https://github.com/shaqdeff/KomiKult',
     demo: 'https://shaqdeff.github.io/KomiKult/',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'CIPHER',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'A Cipher System for crime intelligence and predictive heatmaps analyzes crime data to identify patterns, forecast high-risk areas, and support faster, data-driven law enforcement responses.',
     tags: [
       {
         name: 'react',
@@ -195,14 +205,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
+    image: cipher,
     repo: 'https://github.com/shaqdeff/Leaderboard',
     demo: 'https://shaqdeff.github.io/Leaderboard/',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'MABELS',
+    description: 'Mabel’s Inventory System with Table Management, Order Management, and POS streamlines restaurant operations by tracking stock levels, managing table assignments, handling customer orders, and processing sales transactions in one integrated platform.',
     tags: [
       {
         name: 'nextjs',
@@ -217,54 +227,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
+    image: mabels,
     repo: 'https://github.com/shaqdeff/Math-Magicians',
     demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
-  },
-  {
-    id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
-  },
-  {
-    id: 'project-5',
-    name: 'Nyeusi Fest Site',
-    description:
-      'This is a demo concert website for a music festival called Nyeusi.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
   },
 ];
 
